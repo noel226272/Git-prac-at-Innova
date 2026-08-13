@@ -5,3 +5,14 @@ function isEven(number) {
 
 // Test Function 1
 console.log("Is 10 even?", isEven(10));
+
+
+// Function 2: Find the largest of three numbers
+function findLargest(a, b, c) {
+    return Math.max(a, b, c);
+}
+
+// Test Function 2
+console.log("Largest number:", findLargest(10, 25, 15));
+
+
